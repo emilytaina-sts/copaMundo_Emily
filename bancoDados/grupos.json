@@ -1,0 +1,50 @@
+[
+    {
+        "grupo": "A",
+        "selecoes": ["MEX", "KOR", "CZE", "RSA"]
+    },
+    {
+        "grupo": "B",
+        "selecoes": ["CAN", "SUI", "QAT", "BIH"]
+    },
+    {
+        "grupo": "C",
+        "selecoes": ["BRA", "MAR", "SCO", "HAI"]
+    },
+    {
+        "grupo": "D",
+        "selecoes": ["USA", "AUS", "TUR", "PAR"]
+    },
+    {
+        "grupo": "E",
+        "selecoes": ["GER", "CIV", "ECU", "CUW"]
+    },
+    {
+        "grupo": "F",
+        "selecoes": ["NED", "JPN", "SWE", "TUN"]
+    },
+    {
+        "grupo": "G",
+        "selecoes": ["BEL", "EGY", "IRN", "NZL"]
+    },
+    {
+        "grupo": "H",
+        "selecoes": ["ESP", "URU", "KSA", "CPV"]
+    },
+    {
+        "grupo": "I",
+        "selecoes": ["FRA", "NOR", "SEN", "IRQ"]
+    },
+    {
+        "grupo": "J",
+        "selecoes": ["ARG", "AUT", "JOR", "ALG"]
+    },
+    {
+        "grupo": "K",
+        "selecoes": ["POR", "COD", "UZB", "COL"]
+    },
+    {
+        "grupo": "L",
+        "selecoes": ["ENG", "CRO", "GHA", "PAN"]
+    }
+]

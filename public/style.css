@@ -1,0 +1,167 @@
+@import url('./assets/styles/base.css');
+
+:root {
+    /* Fundo principal ou textos */
+    --color-azul-noturno: #0D0826;
+    /* Botões de Destaque */
+    --color-verde-neon: #00FF66;
+    /* Links, tags e alertas */
+    --color-rosa-choque: #6c05cd;
+    /* Fundos secundários */
+    --color-branco-gelo: #e6cffb;
+    --color-full-dark: #000000;
+
+    --font-main: 'Kite One', sans-serif;
+
+    --shadow-text: 0 0 4px #00000066;
+}
+
+.content__card {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1.5rem;
+    gap: 1.5rem;
+}
+
+.card__selecao {
+    width: 200px;
+    min-height: 120px;
+    padding: 1rem;
+    box-shadow: 0 0 4px #0D082633;
+    background-color: var(--color-branco-gelo);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__grupo {
+    padding: 1rem;
+    box-shadow: 0 0 4px #0D082633;
+    background-color: var(--color-branco-gelo);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 200px;
+}
+
+.grupo__letra {
+    grid-column: 1 / 3;
+    justify-self: center;
+    font-size: 1.1rem;
+    line-height: 200%;
+    font-weight: 600;
+}
+
+.grupo__selecao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.selecao__identity {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.selecao__flag {
+    max-width: 40px;
+    box-shadow: 0 0 4px #00FF6633;
+}
+
+.selecao__sigla {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 4px #00000033;
+}
+
+.selecao__nome {
+    font-size: 1rem;
+    line-height: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.selecao__titulos {
+    font-size: 0.8rem;
+    line-height: 1rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.titulos__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.titulos__item::before {
+    content: '🏆';
+    font-size: 1.1rem;
+}
+
+.grupos {
+    padding: 1rem 2rem;
+}
+
+.grupos__item {
+    padding: 0.5rem;
+    box-shadow: 0px 0px 3px #00000066;
+    max-width: 400px;
+}
+
+.grupo__titulo {
+    line-height: 200%;
+}
+
+.grupo__paises {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.paises__posicao {
+    display: grid;
+    grid-template-columns: 20px 50px 200px 30px 80px;
+    align-items: center;
+    padding-top: 0.25rem;
+    border-top: 1px solid #00000033;
+}
+
+.pais__jogos {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.jogos__item {
+    display: block;
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jogos__vitoria {
+    background-image: url('./assets/img/victory.png');
+}
+
+.jogos__empate {
+    background-image: url('./assets/img/empate.png');
+}
+
+.jogos__derrota {
+    background-image: url('./assets/img/defeat.png');
+}
